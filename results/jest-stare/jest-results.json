@@ -1,0 +1,301 @@
+{
+  "numFailedTestSuites": 3,
+  "numFailedTests": 7,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 1,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 7,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1762278937986,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 5,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1762278939774,
+        "runtime": 1454,
+        "slow": false,
+        "start": 1762278938320
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\films.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 41,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 404,
+                "expected": 200,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at Object.toBe (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\films.test.js:9:33)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+          ],
+          "fullName": "Films API routes should fetch a movie by title",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should fetch a movie by title"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 7,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": "Film not found",
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Film not found\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Film not found\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.toBe (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\films.test.js:17:35)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+          ],
+          "fullName": "Films API routes should return 404 for a non-existent movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return 404 for a non-existent movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 22,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 404,
+                "expected": 200,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at Object.toBe (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\films.test.js:28:33)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+          ],
+          "fullName": "Films API routes should add a new movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should add a new movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 8,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 404,
+                "expected": 200,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at Object.toBe (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\films.test.js:41:33)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+          ],
+          "fullName": "Films API routes should update an existing movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should update an existing movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 5,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 404,
+                "expected": 200,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at Object.toBe (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\films.test.js:50:33)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+          ],
+          "fullName": "Films API routes should delete an existing movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should delete an existing movie"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should fetch a movie by title\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m200\u001b[39m\n    Received: \u001b[31m404\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 |\u001b[39m     \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m \u001b[32m'Inception'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m`/api/film/${title}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m  9 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when fetching movie '${title}', but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39m\u001b[33mTitle\u001b[39m)\u001b[33m.\u001b[39mtoBe(title\u001b[33m,\u001b[39m \u001b[32m`Expected movie title to be '${title}', but got '${response.body.Title}'.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:9:33)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should return 404 for a non-existent movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"Film not found\"\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m`/api/film/${title}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m404\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 404 for a non-existent movie '${title}', but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 17 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m'Film not found'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected error message 'Film not found', but got '${response.body.message}'.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 20 |\u001b[39m   it(\u001b[32m'should add a new movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:17:35)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should add a new movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m200\u001b[39m\n    Received: \u001b[31m404\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 26 |\u001b[39m     }\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 27 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39mpost(\u001b[32m'/api/film/'\u001b[39m)\u001b[33m.\u001b[39msend(movie)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 28 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when adding a new movie, but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 29 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m`Se ha guardado ${movie.Title}`\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected confirmation message for adding movie '${movie.Title}', but got a different message.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 30 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:28:33)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should update an existing movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m200\u001b[39m\n    Received: \u001b[31m404\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39mput(\u001b[32m'/api/film/'\u001b[39m)\u001b[33m.\u001b[39msend(updatedMovie)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when updating a movie, but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m`Se ha actualizado ${updatedMovie.Title}`\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected confirmation message for updating movie '${updatedMovie.Title}', but got a different message.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 44 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:41:33)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should delete an existing movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m200\u001b[39m\n    Received: \u001b[31m404\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 48 |\u001b[39m     }\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 49 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39m\u001b[36mdelete\u001b[39m(\u001b[32m'/api/film/'\u001b[39m)\u001b[33m.\u001b[39msend(movie)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 50 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when deleting a movie, but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 51 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m`Se ha borrado la película con ID: ${movie.id}`\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected confirmation message for deleting movie with ID '${movie.id}', but got a different message.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 52 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 53 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:50:33)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1762278940001,
+        "runtime": 177,
+        "slow": false,
+        "start": 1762278939824
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "fetchFilm utility"
+          ],
+          "duration": 1,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "TypeError: fetchFilm is not a function\n    at Object.fetchFilm (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js:5:24)\n    at Promise.then.completed (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
+          ],
+          "fullName": "fetchFilm utility should return movie details for a known movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return movie details for a known movie"
+        },
+        {
+          "ancestorTitles": [
+            "fetchFilm utility"
+          ],
+          "duration": 1,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "TypeError: fetchFilm is not a function\n    at Object.fetchFilm (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js:17:24)\n    at Promise.then.completed (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
+          ],
+          "fullName": "fetchFilm utility should return null for a non-existent movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return null for a non-existent movie"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mfetchFilm utility › should return movie details for a known movie\u001b[39m\u001b[22m\n\n    TypeError: fetchFilm is not a function\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 |\u001b[39m describe(\u001b[32m'fetchFilm utility'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 |\u001b[39m   it(\u001b[32m'should return movie details for a known movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 5 |\u001b[39m     \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m fetchFilm(\u001b[32m'Inception'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 6 |\u001b[39m     expect(data)\u001b[33m.\u001b[39mtoBeDefined()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mdata) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 8 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Expected movie details for 'Inception', but got nothing.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.fetchFilm (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:5:24)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mfetchFilm utility › should return null for a non-existent movie\u001b[39m\u001b[22m\n\n    TypeError: fetchFilm is not a function\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m   it(\u001b[32m'should return null for a non-existent movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m fetchFilm(\u001b[32m'NonExistentMovie12345'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 |\u001b[39m     expect(data)\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 |\u001b[39m     \u001b[36mif\u001b[39m (data) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 20 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Expected no movie details for 'NonExistentMovie12345', but got some data.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.fetchFilm (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:17:24)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    EBUSY: resource busy or locked, open 'C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\results\\jest-stare\\css\\jest-stare.css'\n\n      \u001b[2mat Function.writeFileSync (\u001b[22mnode_modules/jest-stare/src/utils/IO.ts\u001b[2m:53:12)\u001b[22m\n      \u001b[2mat Processor.generateReport (\u001b[22mnode_modules/jest-stare/src/processor/Processor.ts\u001b[2m:167:12)\u001b[22m\n      \u001b[2mat Processor.generate (\u001b[22mnode_modules/jest-stare/src/processor/Processor.ts\u001b[2m:85:14)\u001b[22m\n      \u001b[2mat Function.run (\u001b[22mnode_modules/jest-stare/src/processor/Processor.ts\u001b[2m:35:62)\u001b[22m\n      \u001b[2mat Reporter.onTestResult (\u001b[22mnode_modules/jest-stare/src/reporter/Reporter.ts\u001b[2m:109:23)\u001b[22m\n      \u001b[2mat ReporterDispatcher.onTestFileResult (\u001b[22mnode_modules/@jest/core/build/ReporterDispatcher.js\u001b[2m:32:24)\u001b[22m\n      \u001b[2mat onResult (\u001b[22mnode_modules/@jest/core/build/TestScheduler.js\u001b[2m:154:7)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "runtime": 0,
+        "slow": false,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {
+        "errno": -4082,
+        "code": "EBUSY",
+        "syscall": "open",
+        "path": "C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\results\\jest-stare\\css\\jest-stare.css"
+      },
+      "testFilePath": "C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\test\\env.test.js",
+      "testResults": []
+    }
+  ],
+  "wasInterrupted": false,
+  "runExecError": {
+    "errno": -4082,
+    "code": "EBUSY",
+    "syscall": "open",
+    "path": "C:\\Users\\morat\\OneDrive\\Escritorio\\The Bridge\\ejercicio_API_REST_films_con_test\\results\\jest-stare\\js\\view.js"
+  }
+}
